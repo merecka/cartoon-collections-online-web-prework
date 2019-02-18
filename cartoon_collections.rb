@@ -24,7 +24,7 @@ def find_the_cheese(cheese)
   cheese.each do |x|
    if cheese_types.include?(x)
      return x
-  else
+   else
     return nil
    end
   end
