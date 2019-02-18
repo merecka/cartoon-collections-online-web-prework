@@ -10,7 +10,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  char_numbers = calls.collect{|x| if x > 4}
+  char_numbers = calls.select{|x| x > 4}
   if char_numbers.length > 1
    return true
   else
