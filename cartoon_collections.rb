@@ -10,11 +10,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  char_numbers = calls.collect{|x| x > 4}
-    for x.length > 4 do
-     char_numbers << x
-    end
-  end
+  char_numbers = calls.collect{|x| if x > 4}
   if char_numbers.length > 1
    return true
   else
