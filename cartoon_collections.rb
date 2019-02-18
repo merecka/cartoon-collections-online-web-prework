@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(calls)
   char_numbers = calls.collect do |x|
-    for x.length > 4
+    for x.length > 4 do
      char_numbers << x
     end
   end
